@@ -10,7 +10,5 @@ These buttons will eventually update the grid of movies by making subsequent API
 
 There is a tooltip that displays the name of the movie below the poster when hovering over a thumbnail.
 
-To Do:
-
-Make responsive
-Add Modal when you click on the movie poster
+Page is fully responsive
+Responsive modal opens when you click on the movie poster

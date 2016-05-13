@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="assets/stylesheet.css" charset="utf-8">
     <meta charset="utf-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="assets/vendor/scripts/jquery.modal.js"></script>
+    <link rel="stylesheet" href="assets/vendor/styles/jquery.modal.css" media="screen" />
+    <script src="assets/vendor/scripts/sugar-1.4.1-custom.min.js"></script>
     <script src="assets/scripts.js" ></script>
     <title>Ethan Steiner Movie Database</title>
   </head>
@@ -24,9 +27,15 @@
         </nav>
       </header>
       <h1>Latest Releases</h1>
+
       <div class="grid-container">
-        
+        <!-- content from API goes here -->
       </div>
+
+      <div class="modal-container">
+        <!-- content for modals from API goes here -->
+      </div>
+
       <div class="center">
         <ul class="pagination">
           <li><a class="active" href="#">First</a></li>

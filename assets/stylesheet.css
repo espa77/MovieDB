@@ -156,16 +156,59 @@ ul.pagination li a:hover:not(.active) {
 
 div.center {text-align: center;}
 
+.close:hover { background: #00d9ff; }
+
+.modal img {
+  width: 342px;
+  float: left;
+  padding-right: 1.5em;
+}
+
+.modal h1 {
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.modal h2 {
+  font-family: Roboto;
+  font-weight: 300;
+  color: #8494AB;
+  font-size: large;
+}
+
+.modal h3 {
+  font-family: Roboto;
+  font-weight: 300;
+  color: #8494AB;
+  font-size: small;
+}
+
 @media all and (max-width:1086px){
   .col-4 {
     width: 30%;
     }
+  .modal {
+    min-width: 90%;
+  }
+  .modal img {
+    width: 342px;
+    float: left;
+    padding-right: .8em;
+  }
 }
 
 @media all and (max-width:800px){
   .col-4{
     width: 47.1%;
     }
+  .modal img {
+    width: 250px;
+  }
+  .modal h3 {
+    position: absolute;
+    padding-top: 12em;
+    font-size: larger;
+  }
 }
 
 @media all and (max-width:650px){
@@ -173,8 +216,14 @@ div.center {text-align: center;}
     width: 92%;
     margin-left: 4.13%;
   }
-  .col-4 img {
-    width: 342px;
+  .modal img {
+    width: 200px;
+  }
+  .modal h1 h2 {
+    font-size: larger;
+  }
+  .modal h3 {
+    padding-top: 28%;
   }
   ul.pagination li a {
     font-family: Roboto;
