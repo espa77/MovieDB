@@ -12,14 +12,3 @@ var data = $.getJSON( "http://api.themoviedb.org/3/movie/now_playing?api_key=ebe
     });
   });
 });
-
-// $(".grid-container").find(".col-4").append("<p><img src='" + url + "'>");
-
-// var movie_details = {}, title = [], overview = [], popularity = [], vote_count = [], vote_average = [];
-// results.forEach(
-//   title: results.title,
-//   overview: results.overview,
-//   popularity: results.popularity,
-//   voteCount: results.vote_count,
-//   voteAvg: results.vote_average
-// };
