@@ -76,7 +76,7 @@ h1 {
 .col-4 {
   margin-left: 1.4%;
   margin-right: 1.4%;
-  max-width: 21%;
+  width: 21%;
 }
 
 .col-4 img {
@@ -154,22 +154,27 @@ ul.pagination li a:hover:not(.active) {
   border-color: #3EB895;
 }
 
-
-
 div.center {text-align: center;}
+
+@media all and (max-width:1086px){
+  .col-4 {
+    width: 30%;
+    }
+}
 
 @media all and (max-width:800px){
   .col-4{
     width: 47.1%;
-    min-height: none;
     }
 }
 
 @media all and (max-width:650px){
   .col-4{
     width: 92%;
-    min-height: none;
     margin-left: 4.13%;
+  }
+  .col-4 img {
+    width: 342px;
   }
   ul.pagination li a {
     font-family: Roboto;
