@@ -4,7 +4,6 @@
 */
 (function($) {
 
-
   var modals = [],
       getCurrent = function() {
         return modals.length ? modals[modals.length - 1] : null;
@@ -184,7 +183,7 @@
   // Returns if there currently is an active modal
   $.modal.isActive = function () {
     return modals.length > 0;
-  };
+  }
 
   $.modal.defaults = {
     closeExisting: true,
@@ -195,9 +194,9 @@
     modalClass: "modal",
     spinnerHtml: null,
     showSpinner: true,
-    showClose: true,
-    fadeDuration: 300,   // Number of milliseconds the fade animation takes.
-    fadeDelay: 1.1        // Point during the overlay's fade-in that the modal begins to fade in (.5 = 50%, 1.5 = 150%, etc.)
+    showClose: false,
+    fadeDuration: 200,   // Number of milliseconds the fade animation takes.
+    fadeDelay: 1.2        // Point during the overlay's fade-in that the modal begins to fade in (.5 = 50%, 1.5 = 150%, etc.)
   };
 
   // Event constants

@@ -3,13 +3,14 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="assets/stylesheet.css" charset="utf-8">
     <meta charset="utf-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="assets/vendor/scripts/jquery.modal.js"></script>
-    <link rel="stylesheet" href="assets/vendor/styles/jquery.modal.css" media="screen" />
     <script src="assets/vendor/scripts/sugar-1.4.1-custom.min.js"></script>
-    <script src="assets/scripts.js" ></script>
+    <script src="assets/vendor/scripts/jquery.simplePagination.js"></script>
+    <link rel="stylesheet" href="assets/vendor/styles/jquery.modal.css" media="screen" />
+    <link rel="stylesheet" href="assets/vendor/styles/simplePagination.es.css" media="screen" />
+    <link rel="stylesheet" href="assets/stylesheet.css" charset="utf-8">
     <title>Ethan Steiner Movie Database</title>
   </head>
   <body>
@@ -38,15 +39,16 @@
 
       <div class="center">
         <ul class="pagination">
-          <li><a class="active" href="#">First</a></li>
-          <li><a href="#">Prev</a></li>
-          <li><a class="active" href="#">1</a></li>
-          <li><a href="#">2</a></li>
-          <li><a href="#">3</a></li>
-          <li><a href="#">...</a></li>
-          <li><a href="#">Next</a></li>
-          <li><a class="active" href="#">Last</a></li>
+          <li><a class="page-nav-button active" href="#">First</a></li>
+          <li><a class="page-nav-button" href="#">Prev</a></li>
+          <li><a class="page-nav-button active" href="#">1</a></li>
+          <li><a class="page-nav-button" href="#">2</a></li>
+          <li><a class="page-nav-button" href="#">3</a></li>
+          <li><a class="page-nav-button" href="#">...</a></li>
+          <li><a class="page-nav-button" href="#">Next</a></li>
+          <li><a class="page-nav-button active" href="#">Last</a></li>
         </ul>
       </div>
+      <script src="assets/scripts.js" ></script>
   </body>
 </html>
