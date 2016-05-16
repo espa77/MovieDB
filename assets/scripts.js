@@ -79,18 +79,18 @@ function showProjectPage(page){
   });
 }
 
-$(window).resize(function () {
+$(window).on("load, resize", function () {
     var viewportWidth = $(window).width();
-    if (viewportWidth < 502) {
+    if (viewportWidth < 525) {
             $('li').eq(4).hide();
             $('li').eq(5).hide();
             $('li').eq(7).hide();
     }
 });
 
-$(window).resize(function () {
+$(window).on("load, resize", function () {
     var viewportWidth = $(window).width();
-    if (viewportWidth > 502) {
+    if (viewportWidth > 525) {
             $('li').eq(4).show();
             $('li').eq(5).show();
             $('li').eq(7).show();

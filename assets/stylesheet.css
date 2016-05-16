@@ -286,13 +286,13 @@ div.center {
 
 @media all and (max-width:525px){
   div.center {
-    margin-left: 1%;
+    margin-left: 11%;
   }
 }
 
 @media all and (max-width:500px){
   div.center {
-    margin-left: -3%;
+    margin-left: 7%;
   }
   .compact-theme a, .compact-theme span {
     font-weight: 400;
@@ -300,5 +300,11 @@ div.center {
   }
   .compact-theme .ellipse {
     padding: .5em .9em;
+  }
+}
+
+@media all and (max-width:450px){
+  div.center {
+    margin-left: -5%;
   }
 }
